@@ -1,8 +1,16 @@
+import styles from '../global.css';
+
 const Home = () => {
     return (
-        <div className="container">
-            <h1>Welcome</h1>
-        </div>
+        <body>
+            <div className="container">
+                <h1>Welcome</h1>
+
+                
+
+
+            </div>
+        </body>
     )
 }
 
