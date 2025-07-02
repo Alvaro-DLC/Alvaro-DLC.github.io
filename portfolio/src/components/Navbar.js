@@ -13,6 +13,14 @@ const Navbar = () => {
             </li>
             <li>
                 <NavLink 
+                    to="/contact" 
+                    className={({ isActive }) => isActive ? styles.active : undefined}
+                >
+                    Contact
+                </NavLink>
+            </li>
+            <li>
+                <NavLink 
                     to="/projects" 
                     className={({ isActive }) => isActive ? styles.active : undefined}
                 >

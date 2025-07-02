@@ -5,15 +5,37 @@
 }
 
 body {
-  margin-top: 2.5em;
+  margin-top: 3em;
   font-family: 'Helvetica Neue', sans-serif;
   background-color: #1f1f1f;
-  color: #333;
-  line-height: 1.6;
+  color: #dbdbdb;
+  line-height: 1.5;
+}
+
+sub {
+  color: #6c6c6c;
+  font-size: 1.5em;
+}
+
+h1 {
+  font-size: 5em;
 }
 
 .container {
   max-width: 960px;
   margin: 0 auto;
   padding: 2rem;
+}
+
+.homeContainer {
+  margin-top: 10em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  box-sizing: border-box;
 }
