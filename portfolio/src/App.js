@@ -7,15 +7,22 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <body>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </Router>
+      <div className='main'>
+        <Router>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </Router>
+      </div>
+      <footer>
+        <h4>Alvaro De La Cruz</h4>
+        <sub>© {new Date().getFullYear()} All rights reserved.</sub>
+      </footer>
     </body>
+    
   );
 }
 

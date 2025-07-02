@@ -1,20 +1,39 @@
 import styles from '../global.css';
-import pic from '../assets/Portrait_Placeholder.png'
+import { Link } from "react-router-dom";
+import pic from '../assets/images/Portrait_Placeholder.png'
 
 const Home = () => {
     return (
         <div className="container">
-            <div className="homeContainer">
-                <div  style={{ flex: '50%' }} className="column">
-                    <h1>Hello, I'm Alvaro</h1>
-                    <sub>A software developer from California. Freshly graduated from CSUMB with a BA in Computer Science.</sub>
+            <div style={{ marginTop: '8%' }} className="flexContainer">
+                <div style={{ width: '70%'}} className="column">
+                    <p> 
+                        <h1>Hello, I'm Alvaro</h1>
+                        <hr style={{ height: '4px' }}/>
+                        <h1>Software Developer</h1>
+                    </p>
 
-                </div>
-                
-                <div  style={{ flex: '50%' }} className="column">
-                    <img src={pic} alt="portait placeholder" style={{ width: '400px'}}/>
-                </div>
                     
+                    <Link to="/projects">
+                        <button  type="button" >My Projects</button>
+                    </Link>
+                    
+                    <button  type="button">My Resume</button>
+                </div>
+                <div className="column">
+                    <img src={pic} alt="portait placeholder" style={{ width: '400px' }}/>
+                </div>
+            </div>
+
+            <hr style={{ margin: '5%' }}/>
+
+            <div>
+                <h1>About Me</h1>
+                <p style={{ maxWidth: '60%' }}>
+                    <sub>
+                        I’m a Software Developer with a B.A. in Computer Science from California State University, Monterey Bay. My passion for programming began in high school, where I discovered a love for problem solving and the creative challenge of building software. That early interest grew into a commitment to developing efficient, user-focused solutions — ultimately guiding me toward a career in software engineering.
+                    </sub>
+                </p>
             </div>
         </div>
     )

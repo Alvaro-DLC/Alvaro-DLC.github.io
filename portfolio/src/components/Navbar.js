@@ -7,7 +7,7 @@ const Navbar = () => {
         <ul>
             <li>
                 <h2 className={styles.title}>
-                    <DiCode size="2em" color="lightblue" />
+                    <DiCode size="2em" color="#967ca6" />
                     Alvaro De La Cruz
                 </h2>
             </li>
