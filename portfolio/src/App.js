@@ -22,7 +22,6 @@ function App() {
         <sub>© {new Date().getFullYear()} All rights reserved.</sub>
       </footer>
     </body>
-    
   );
 }
 

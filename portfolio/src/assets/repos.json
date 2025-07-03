@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Portfolio Website",
+        "type": "Frontend",
+        "repo_link": "https://github.com/Alvaro-DLC/Alvaro-DLC.github.io",
+        "project_link": "https://alvaro-dlc.github.io/",
+        "description": "desccription",
+        "languages": ["JavaScript", "HTML", "CSS"],
+        "tech": ["React"],
+        "img": "porfolio_website.png",
+        "start": "2025-06-27",
+        "end": null,
+        "status": "ongoing"
+    }
+]

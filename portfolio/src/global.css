@@ -37,7 +37,7 @@ sub {
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 4em;
 }
 
 hr {
@@ -89,7 +89,6 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding-left: 6%;
   box-sizing: border-box;
 }
 
@@ -99,3 +98,4 @@ button:hover {
   min-width: 400px;
   box-sizing: border-box;
 }
+
