@@ -10,12 +10,12 @@ const ProjectDisplay = ({ proj }) => {
     }
 
     return (
-        <div className="flexContainer">
+        <div className={ `flexContainer ${styles.projectContainer}` }>
             <div className="column">
-                <img src={require(`../assets/images/${proj.img}`)}  alt={ proj.name } style={{ width: '400px' }}/>
+                <img src={require(`../assets/images/${proj.img}`)}  alt={ proj.name } className={ styles.img }/>
             </div>
 
-            <div className="column">
+            <div className="column" style={{ margin: "5%"}}>
                 <div>
                     <h1 className={ styles.title }>
                         { proj.type } - { proj.name }
@@ -24,16 +24,19 @@ const ProjectDisplay = ({ proj }) => {
                     <ul className={styles.list}>{itemList}</ul>
 
                     <hr />
-
-                    <sub>{ proj.description }</sub>
+                    <p>
+                        <sub>{ proj.description }</sub>
+                    </p>
                 </div>
 
-                <a href={ proj.repo_link } target="_blank" rel="noreferrer">
-                    <button type="button">View Repo</button>
-                </a>
-                <a href={ proj.project_link } target="_blank" rel="noreferrer">
-                    <button type="button">View Project</button>
-                </a>
+                <div>
+                    <a href={ proj.repo_link } target="_blank" rel="noreferrer">
+                        <button type="button">View Repo</button>
+                    </a>
+                    <a href={ proj.project_link } target="_blank" rel="noreferrer">
+                        <button type="button">View Project</button>
+                    </a>
+                </div>
 
             </div>
         </div>

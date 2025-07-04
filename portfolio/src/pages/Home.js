@@ -4,7 +4,7 @@ import pic from '../assets/images/Portrait_Placeholder.png'
 const Home = () => {
     return (
         <div className="container">
-            <div style={{ marginTop: '8%', paddingLeft: "6%" }} className="flexContainer">
+            <div style={{ marginTop: '7%', paddingLeft: "6%" }} className="flexContainer">
                 <div style={{ width: '70%'}} className="column">
                     <p> 
                         <h1>Hello, I'm Alvaro</h1>

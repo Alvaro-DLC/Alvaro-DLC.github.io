@@ -32,7 +32,7 @@ div {
 }
 
 sub {
-  color: #6c6c6c;
+  color: #818181;
   font-size: 1.5em;
 }
 
@@ -53,6 +53,7 @@ p {
 a {
   color: #e6e6e6;
   text-decoration: none;
+  transition: background 0.2s;
 }
 
 button {
@@ -64,6 +65,7 @@ button {
   background-color: #452f52;
   font-size: 1.5em;
   color: #e6e6e6;
+  transition: background 0.2s;
   text-decoration: none;
 }
 
@@ -73,7 +75,10 @@ button:hover {
 }
 
 .main {
- flex: 1;
+  flex: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -86,7 +91,6 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
   width: 100%;
   box-sizing: border-box;
@@ -94,7 +98,6 @@ button:hover {
 
 .column {
   flex: 1 1 45%;
-  /* margin: 10px; */
   min-width: 400px;
   box-sizing: border-box;
 }
