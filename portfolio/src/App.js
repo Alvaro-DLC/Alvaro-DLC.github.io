@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,10 +18,7 @@ function App() {
           </Routes>
         </Router>
       </div>
-      <footer>
-        <h4>Alvaro De La Cruz</h4>
-        <sub>© {new Date().getFullYear()} All rights reserved.</sub>
-      </footer>
+      <Footer />
     </body>
   );
 }

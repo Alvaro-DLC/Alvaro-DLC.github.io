@@ -9,7 +9,7 @@ const Home = () => {
                     <p> 
                         <h1>Hello, I'm Alvaro</h1>
                         <hr style={{ height: '4px' }}/>
-                        <h1>Software Developer</h1>
+                        <h1>Full-Stack Developer</h1>
                     </p>
 
                     <Link to="/projects">
@@ -23,10 +23,8 @@ const Home = () => {
                 </div>
             </div>
 
-            <hr style={{ margin: '5%' }}/>
-
-            <div>
-                <h1>About Me</h1>
+            <div className="subContainer">
+                <h1 className="underlined">About Me</h1>
                 <p style={{ maxWidth: '60%' }}>
                     <sub>
                         I'm a Software Developer with a B.A. in Computer Science from California State University, Monterey Bay. 
@@ -35,6 +33,10 @@ const Home = () => {
                         user-focused solutions — ultimately guiding me toward a career in software engineering.
                     </sub>
                 </p>
+            </div>
+
+            <div className="subContainer">
+                <h1 className="underlined">Contact</h1>
             </div>
         </div>
     )

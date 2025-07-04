@@ -41,8 +41,8 @@ h1 {
 }
 
 hr {
-  color: #393939;
-  background-color: #393939;
+  color: #967ca6;
+  background-color: #967ca6;
 }
 
 p {
@@ -74,6 +74,11 @@ button:hover {
   border-color: #a790b5;
 }
 
+.underlined {
+  text-decoration: underline; 
+  text-decoration-color: #967ca6;
+}
+
 .main {
   flex: 1;
   min-height: 100vh;
@@ -94,6 +99,14 @@ button:hover {
   align-items: center;
   width: 100%;
   box-sizing: border-box;
+}
+
+.subContainer {
+  margin-block: 10%;
+  padding-block: 5%;
+  background-color: #111111;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px#0f0f0f;
 }
 
 .column {

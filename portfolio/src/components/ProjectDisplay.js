@@ -23,7 +23,7 @@ const ProjectDisplay = ({ proj }) => {
 
                     <ul className={styles.list}>{itemList}</ul>
 
-                    <hr />
+                    <hr className={styles.line} />
                     <p>
                         <sub>{ proj.description }</sub>
                     </p>
