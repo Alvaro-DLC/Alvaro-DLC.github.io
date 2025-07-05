@@ -27,10 +27,9 @@ const Home = () => {
                 <h1 className="underlined">About Me</h1>
                 <div className="textTwo">
                     <sub>
-                        I'm a Software Developer with a B.A. in Computer Science from California State University, Monterey Bay. 
-                        My passion for programming began in high school, where I discovered a love for problem solving and the 
-                        creative challenge of building software. That early interest grew into a commitment to developing efficient, 
-                        user-focused solutions — ultimately guiding me toward a career in software engineering.
+                        I'm a Software Developer with a B.A. in Computer Science from California State University, Monterey Bay.
+                        I was proud to be part of the CSin3 program, an accelerated and intensive pathway that deepened my technical 
+                        skills and strengthened my commitment to the field.
                     </sub>
                 </div>
             </div>

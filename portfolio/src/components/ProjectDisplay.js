@@ -3,10 +3,10 @@ import styles from './ProjectDisplay.module.css';
 const ProjectDisplay = ({ proj }) => {
     const itemList = [];
     for (let i = 0; i < proj.tech.length; i++) {
-        itemList.push(<li className={ styles.items }>{ proj.tech[i] }</li>)
+        itemList.push(<li key={`tech-${i}`} className={ styles.items }>{ proj.tech[i] }</li>)
     }
     for (let i = 0; i < proj.languages.length; i++) {
-        itemList.push(<li className={ styles.items }>{ proj.languages[i] }</li>)
+        itemList.push(<li key={`lang-${i}`} className={ styles.items }>{ proj.languages[i] }</li>)
     }
 
     return (
