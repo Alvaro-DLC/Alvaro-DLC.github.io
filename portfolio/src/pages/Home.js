@@ -4,7 +4,7 @@ import pic from '../assets/images/Portrait_Placeholder.png'
 const Home = () => {
     return (
         <div className="container">
-            <div style={{ marginTop: '7%', paddingLeft: "6%" }} className="flexContainer">
+            <div style={{ marginTop: '7%', paddingLeft: '6%' }} className="flexContainer">
                 <div style={{ width: '70%'}} className="column">
                     <p> 
                         <h1>Hello, I'm Alvaro</h1>
@@ -35,8 +35,17 @@ const Home = () => {
                 </p>
             </div>
 
-            <div className="subContainer">
+            <div className="subContainer" id="contactForm">
                 <h1 className="underlined">Contact</h1>
+                    
+                <form action="https://api.web3forms.com/submit" method="POST" className="contactContainer">
+                   <input type="hidden" name="access_key" value="20f07d8d-79f4-46cd-9312-1336a5081127"></input>
+
+                    <input type="text" name="name" placeholder="Your Name" className="contactInput" required ></input>
+                    <input type="text" name="email" placeholder="Your Email" className="contactInput" required ></input>
+                    <textarea name="message" placeholder="Your Message" className="contactInput" required ></textarea>
+                    <button type="submit" style={{ margin: '50px' }}>Submit</button>
+                </form>
             </div>
         </div>
     )

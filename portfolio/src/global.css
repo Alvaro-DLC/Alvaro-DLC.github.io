@@ -74,6 +74,11 @@ button:hover {
   border-color: #a790b5;
 }
 
+textarea {
+  min-height: 200px;
+  padding: 5px;
+}
+
 .underlined {
   text-decoration: underline; 
   text-decoration-color: #967ca6;
@@ -102,8 +107,8 @@ button:hover {
 }
 
 .subContainer {
-  margin-block: 10%;
-  padding-block: 5%;
+  margin-block: 50px;
+  padding-block: 50px;
   background-color: #111111;
   border-radius: 25px;
   box-shadow: 5px 5px 5px#0f0f0f;
@@ -115,3 +120,21 @@ button:hover {
   box-sizing: border-box;
 }
 
+.contactContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  justify-content: space-evenly;
+}
+
+.contactInput {
+  padding-left: 5px;
+  font-size: 1em;
+  width: 400px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}

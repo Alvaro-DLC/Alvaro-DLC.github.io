@@ -1,8 +1,26 @@
 import styles from './Navbar.module.css';
 import { DiCode } from "react-icons/di";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate, useLocation } from "react-router-dom";
 
 const Navbar = () => {
+    const navigate = useNavigate();
+    const location = useLocation();
+
+    const handleContactClick = (e) => {
+        e.preventDefault();
+
+        if (location.pathname !== "/") {
+            navigate("/", { repalce: false });
+            setTimeout(() => {
+                const el= document.getElementById("contactForm");
+                if (el) el.scrollIntoView({ behavior: "smooth" });
+            }, 100);
+        } else {
+            const el = document.getElementById("contactForm");
+            if (el) el.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
     return (
         <nav className={styles.navbar}>
             <div className={styles.title}>
@@ -26,12 +44,14 @@ const Navbar = () => {
                     Projects
                 </NavLink>
 
-                <NavLink 
+                {/* <NavLink 
                     to="/contact" 
                     className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}
                 >
                     Contact
-                </NavLink>
+                </NavLink> */}
+
+                <span onClick={handleContactClick} className={styles.link} style={{ cursor: "pointer" }}>Contact</span>
             </div>
         </nav>
     )
