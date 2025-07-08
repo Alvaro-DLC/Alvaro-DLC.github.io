@@ -24,10 +24,11 @@
 }
 
 .img {
-    border-radius: 25px;
     margin: 5%;
+    border-radius: 25px;
     padding: 0;
     width: 100%;
+    max-width: 800px;
 }
 
 .projectContainer {
@@ -37,6 +38,16 @@
     box-shadow: 5px 5px 5px#0f0f0f;
 }
 
+.detailsAdjustments {
+    width: 50%;
+}
+
 .line {
     color: #393939;
+}
+
+@media (max-width: 768px) {
+   .title {
+    font-size: 1.8em;
+   }
 }

@@ -15,7 +15,7 @@ const ProjectDisplay = ({ proj }) => {
                 <img src={require(`../assets/images/${proj.img}`)}  alt={ proj.name } className={ styles.img }/>
             </div>
 
-            <div className="column" style={{ margin: "5%"}}>
+            <div className={`column ${styles.detailsAdjustments}`} style={{ margin: "5%"}}>
                 <div>
                     <h1 className={ styles.title }>
                         { proj.type } - { proj.name }
@@ -31,10 +31,10 @@ const ProjectDisplay = ({ proj }) => {
 
                 <div>
                     <a href={ proj.repo_link } target="_blank" rel="noreferrer">
-                        <button type="button">View Repo</button>
+                        <button type="button" className="mobileButton">View Repo</button>
                     </a>
                     <a href={ proj.project_link } target="_blank" rel="noreferrer">
-                        <button type="button">View Project</button>
+                        <button type="button" className="mobileButton">View Project</button>
                     </a>
                 </div>
 

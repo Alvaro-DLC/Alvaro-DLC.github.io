@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div className="container">
             <div className="flexContainer flexAdjustment">
-                <div style={{ width: '70%'}} className="column">
+                <div className="column">
                     <div className="text"> 
                         <h1>Hello, I'm Alvaro</h1>
                         <hr style={{ height: '4px' }}/>
@@ -13,13 +13,13 @@ const Home = () => {
                     </div>
 
                     <Link to="/projects">
-                        <button  type="button" >My Projects</button>
+                        <button  type="button" className="mobileButton">My Projects</button>
                     </Link>
                     
-                    <button  type="button">My Resume</button>
+                    <button  type="button" className="mobileButton">My Resume</button>
                 </div>
                 <div className="column">
-                    <img src={pic} alt="portait placeholder" style={{ width: '400px' }}/>
+                    <img src={pic} alt="portait placeholder" className="profile" />
                 </div>
             </div>
 
@@ -43,7 +43,7 @@ const Home = () => {
                     <input type="text" name="name" placeholder="Your Name" className="contactInput" required ></input>
                     <input type="text" name="email" placeholder="Your Email" className="contactInput" required ></input>
                     <textarea name="message" placeholder="Your Message" className="contactInput" required ></textarea>
-                    <button type="submit" style={{ margin: '50px' }}>Submit</button>
+                    <button type="submit" className="mobileButton" >Submit</button>
                 </form>
             </div>
         </div>

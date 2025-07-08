@@ -44,13 +44,6 @@ const Navbar = () => {
                     Projects
                 </NavLink>
 
-                {/* <NavLink 
-                    to="/contact" 
-                    className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}
-                >
-                    Contact
-                </NavLink> */}
-
                 <span onClick={handleContactClick} className={styles.link} style={{ cursor: "pointer" }}>Contact</span>
             </div>
         </nav>

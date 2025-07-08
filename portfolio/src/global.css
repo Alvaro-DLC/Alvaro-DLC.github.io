@@ -27,7 +27,7 @@ footer {
 }
 
 div {
-  text-align: center;
+  /* text-align: center; */
   width: 100%;
 }
 
@@ -53,12 +53,12 @@ a {
 
 button {
   margin: 5%;
-  width: 200px;
+  width: 30%;
   height: 50px;
   border-radius: 50px;
   border-color: #42324c;
   background-color: #452f52;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #e6e6e6;
   transition: background 0.2s;
   text-decoration: none;
@@ -109,6 +109,7 @@ textarea {
 }
 
 .flexContainer {
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -150,4 +151,61 @@ textarea {
   border: none;
   outline: none;
   border-radius: 10px;
+}
+
+.profile {
+  width: 400px;
+}
+
+@media (max-width: 768px) {
+  .contactInput{
+    width: 80%;
+  }
+
+  .flexAdjustment {
+    margin-top: 50px;
+    padding-left: 0;
+  }
+
+  .mobileButton {
+    margin: 5%;
+    width: 120px;
+    height: 50px;
+    font-size: 1em;
+  }
+
+  .profile {
+    width: 300px;
+  }
+  
+  .container {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  sub {
+    font-size: 1em;
+  }
+
+  .flexContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column {
+    flex: 1 1 100%;
+    min-width: 100%;
+  }
+
+  .textTwo {
+    max-width: 90%;
+  }
+
+  button {
+    width: 100%;
+    font-size: 1.2em;
+  }
 }
