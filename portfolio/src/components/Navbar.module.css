@@ -23,6 +23,7 @@
     flex:1;
     right: 0;
     margin-left: auto;
+    position: relative;
 }
 
 .link {
@@ -37,12 +38,32 @@
 }
 
 @media (max-width: 768px) {
+    .navbar { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
     .title {
-       width: 200px;
-        font-size: 1em;
+        font-size: 1.2em;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .navLinks {
+       flex: unset;
+       margin-left: 0;
+       align-items: center;
+       justify-content: center;
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
     }
 
     .link {
-        padding: 1em 0.5em;
+        padding-block: .5em;
+        width: 100%;
     }
 }

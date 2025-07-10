@@ -24,22 +24,29 @@
 }
 
 .img {
-    margin: 5%;
+    margin: 25px;
     border-radius: 25px;
     padding: 0;
     width: 100%;
+    max-width: 100%;
     max-width: 800px;
+    display: block;
+    box-sizing: border-box;
 }
 
 .projectContainer {
     margin-top: 5%;
+    overflow: hidden;
+    justify-content: center;
     background-color: #111111;
     border-radius: 25px;
     box-shadow: 5px 5px 5px#0f0f0f;
 }
 
 .detailsAdjustments {
-    width: 50%;
+    flex: 1 1 0;
+    min-width: 0;
+    box-sizing: border-box;
 }
 
 .line {
@@ -47,7 +54,27 @@
 }
 
 @media (max-width: 768px) {
+    .projectContainer {
+        flex-direction: column;
+    }
+    
+    .detailsAdjustments {
+        padding-right: 6%;
+    }
+
+    .img {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%;
+    }
+
    .title {
     font-size: 1.8em;
+   }
+
+   .items {
+    padding: 0em .5em;
+    margin: 0.4em;
+    font-size: .8em;
    }
 }
