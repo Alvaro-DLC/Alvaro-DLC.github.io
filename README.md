@@ -7,7 +7,7 @@ A personal portfolio website built with **React** to showcase my software develo
 ### Features
 
 * Responsive design (mobile & desktop friendly)
-* Displays projects using local JSON data or GitHub repositories
+* Displays projects using local JSON data
 * Clean, modular React components
 * Custom styles with consistent dark-themed UI
 * Smooth scrolling and intuitive navigation
