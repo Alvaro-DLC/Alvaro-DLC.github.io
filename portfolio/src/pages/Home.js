@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import pic from '../assets/images/Portrait_Placeholder.png'
+import pic from '../assets/images/alvaro_dlc.JPG'
 
 const Home = () => {
     return (
@@ -16,7 +16,11 @@ const Home = () => {
                         <button  type="button" className="mobileButton">My Projects</button>
                     </Link>
                     
-                    <button  type="button" className="mobileButton">My Resume</button>
+
+                    <a href="/alvaro_resume.pdf" target="_blank" rel="noopener noreferrer">
+                        <button  type="button" className="mobileButton">My Resume</button>
+                    </a>
+
                 </div>
                 <div className="column">
                     <img src={pic} alt="portait placeholder" className="profile" />

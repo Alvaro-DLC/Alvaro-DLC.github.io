@@ -25,8 +25,8 @@
 
 .img {
     margin: 25px;
-    border-radius: 25px;
     padding: 0;
+    height: auto; 
     width: 100%;
     max-width: 100%;
     max-width: 800px;
@@ -56,6 +56,12 @@
 @media (max-width: 768px) {
     .projectContainer {
         flex-direction: column;
+        padding-right: 15px;
+    }
+
+    .imageAdjustments {
+        padding-top: 10px;
+        padding-right: 5%;
     }
     
     .detailsAdjustments {

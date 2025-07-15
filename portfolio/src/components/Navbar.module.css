@@ -20,7 +20,7 @@
 
 .navLinks {
     display: flex;
-    flex:1;
+    /* flex:1; */
     right: 0;
     margin-left: auto;
     position: relative;
@@ -30,6 +30,7 @@
     color: #d1d1d1;
     padding: 1em 1.8em;
     text-decoration: none;
+    text-align: center;
 }
 
 .link:hover,

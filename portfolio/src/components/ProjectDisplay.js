@@ -11,7 +11,7 @@ const ProjectDisplay = ({ proj }) => {
 
     return (
         <div className={ `flexContainer ${styles.projectContainer}` }>
-            <div className="column">
+            <div className={`column ${styles.imageAdjustments}`}>
                 <img src={require(`../assets/images/${proj.img}`)}  alt={ proj.name } className={ styles.img }/>
             </div>
 
