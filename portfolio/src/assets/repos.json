@@ -10,6 +10,18 @@
         "status": "completed"
     },
     {
+        "name": "Wishlist App",
+        "type": "Backend",
+        "type_two": "Frontend",
+        "repo_link": "https://github.com/dyluri/CST438Proj2-BackEnd",
+        "sec_repo_link": "https://github.com/dyluri/CST438Proj2-FrontEnd",
+        "description": "Collaborated in a 4-person team to build an e-commerce web application. Focused on backend development with one other team member, implementing SQL databases to manage user accounts, wishlists, and items. Integrated OAuth for secure authentication. Coordinated with the frontend team to ensure seamless system integration and user experience.",
+        "languages": ["Python"],
+        "tech": [ "SQL", "OAuth", "Node.js", "Git"],
+        "img": "wishlist.png",
+        "status": "completed"
+    },
+    {
         "name": "AI-Powered Itinerary Planner",
         "type": "Backend",
         "repo_link": "https://github.com/AI-Powered-Itinerary-Planner/Backend",
