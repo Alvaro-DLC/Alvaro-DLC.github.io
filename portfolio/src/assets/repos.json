@@ -5,7 +5,7 @@
         "repo_link": "https://github.com/Alvaro-DLC/Alvaro-DLC.github.io",
         "description": "Designed and built a personal portfolio website using React to showcase software projects and GitHub contributions. Focused on clean component architecture, responsive layout, and a modular design system. The website is deployed on GitHub Pages. The site highlights development experience and serves as a central hub for project documentation and future expansion.",
         "languages": ["JavaScript", "HTML", "CSS"],
-        "tech": ["React, Git"],
+        "tech": ["React" , "Git"],
         "img": "porfolio_website.png",
         "status": "completed"
     },
