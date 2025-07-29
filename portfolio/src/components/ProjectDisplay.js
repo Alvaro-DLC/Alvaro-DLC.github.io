@@ -33,9 +33,11 @@ const ProjectDisplay = ({ proj }) => {
                     <a href={ proj.repo_link } target="_blank" rel="noreferrer">
                         <button type="button" className="mobileButton">View Repo</button>
                     </a>
-                    <a href={ proj.project_link } target="_blank" rel="noreferrer">
-                        <button type="button" className="mobileButton">View Project</button>
-                    </a>
+                    {proj.project_link && (
+                        <a href={ proj.project_link } target="_blank" rel="noreferrer">
+                            <button type="button" className="mobileButton">View Project</button>
+                        </a>
+                    )}
                 </div>
 
             </div>

@@ -3,13 +3,20 @@
         "name": "Portfolio Website",
         "type": "Frontend",
         "repo_link": "https://github.com/Alvaro-DLC/Alvaro-DLC.github.io",
-        "project_link": "https://alvaro-dlc.github.io/",
         "description": "Designed and built a personal portfolio website using React to showcase software projects and GitHub contributions. Focused on clean component architecture, responsive layout, and a modular design system. The website is deployed on GitHub Pages. The site highlights development experience and serves as a central hub for project documentation and future expansion.",
         "languages": ["JavaScript", "HTML", "CSS"],
-        "tech": ["React"],
+        "tech": ["React, Git"],
         "img": "porfolio_website.png",
-        "start": "2025-06-27",
-        "end": null,
-        "status": "ongoing"
+        "status": "completed"
+    },
+    {
+        "name": "AI-Powered Itinerary Planner",
+        "type": "Backend",
+        "repo_link": "https://github.com/AI-Powered-Itinerary-Planner/Backend",
+        "description": "Built a personalized travel itinerary web application in a 4-person team, using user preferences and stored data to generate customized plans. Designed and implemented the backend database with SQLite, wrote test cases for data reliability, and maintained API endpoints to ensure seamless frontend integration. Applied effective communication skills while collaborating with a 4-person team, ensuring alignment between backend development and frontend needs through regular meetings and shared documentation.",
+        "languages": ["Javascript"],
+        "tech": ["Node.js", "SQLite", "React", "Git"],
+        "img": "ai_powered_itinerary_planner.png",
+        "status": "completed"
     }
 ]
